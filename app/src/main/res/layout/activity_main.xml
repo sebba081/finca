@@ -5,46 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo1"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_photoroom"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="197dp"
-        android:layout_height="72dp"
-        android:layout_marginStart="107dp"
-        android:layout_marginTop="16dp"
-        android:text="estión de una Finca Agrícola"
+        android:layout_width="204dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="41dp"
+        android:text="Finca AgroVerde"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textDirection="locale"
+        app:layout_constraintBottom_toTopOf="@+id/btn_inve"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btn_inve"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="57dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="36dp"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="84dp"
         android:text="Inventario"
         app:layout_constraintBottom_toTopOf="@+id/btn_agre"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btn_agre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="454dp"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="104dp"
         android:text="Agregar Datos"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         app:iconTintMode="add"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_inve"
         app:strokeColor="@color/black" />
 </androidx.constraintlayout.widget.ConstraintLayout>

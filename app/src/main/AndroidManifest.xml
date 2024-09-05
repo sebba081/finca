@@ -13,10 +13,10 @@
         android:theme="@style/Theme.Finca"
         tools:targetApi="31" >
         <activity
-            android:name=".inventario"
+            android:name=".ui.inventario"
             android:exported="false" />
         <activity
-            android:name=".agregar"
+            android:name=".ui.agregar"
             android:exported="false" />
         <activity
             android:name=".ingresos"
@@ -24,7 +24,7 @@
             android:label="@string/title_activity_ingresos"
             android:theme="@style/Theme.Finca" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

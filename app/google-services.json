@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587680277623",
+    "project_id": "finca-f6d89",
+    "storage_bucket": "finca-f6d89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587680277623:android:6bb95df2ef41d589be9272",
+        "android_client_info": {
+          "package_name": "com.example.finca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJWxJ7SPuZBLxBTlnvv1x19Jy_IapDB64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
